@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Another simple weather app</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Rancho'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="timeDiv text-center">
+        <span id="time"></span>
+      </div>
+      <div class="locationDiv text-center">
+        <span id="location"></span>
+        <div class="loader"></div>
+      </div>
+      <div class="weatherDiv text-center">
+        <div id="weather"></div>
+      </div> 
+      <div class="temperatureDiv text-center">
+        <span id="temperature"></span>
+        <span><button class="btn" id="button">C</button></span>
+      </div>
+    </div>
+    <div class="footerDiv text-center">
+      <p>Animated weather icons was made possible by <a href="http://codepen.io/joshbader/pen/EjXgqr" target="_blank">Josh Bader</a>
+      </p>
+      <p>Animated loading icon was made possible by <a href="http://projects.lukehaas.me/css-loaders/" target="_blank">lukehass</a></p>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment-with-locales.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
